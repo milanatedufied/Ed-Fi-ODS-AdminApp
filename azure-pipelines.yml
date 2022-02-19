@@ -31,7 +31,7 @@ steps:
   inputs:
     restoreSolution: '$(solution)'
     feedsToUse: config
-    nugetConfigPath: 'Ed-Fi-ODS\Application\nuget.config'
+    nugetConfigPath: 'Application\nuget.config'
 
 - task: VSBuild@1
   inputs:
